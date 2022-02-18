@@ -1,63 +1,110 @@
 
+body{
+    background-color: rgba(255, 254, 221, 0.548);
+}
 h1{
    
     color:black; 
     font-size:80px;
-   
-}
-p1{
-    font-size:30px;
-   color:white;
-    background-color:rgb(46, 194, 46);
-    position: absolute;
-    left:3%;
+    
 }
 
-p2{
+p.p1 a{
     font-size:30px;
    color:white;
     background-color:rgb(46, 194, 46);
     position: absolute;
     left:3%;
 }
-p3{
+p111{
+    font-size:30px;
+    position: absolute;
+    top:36%;
+    left:3%;
+}
+p.p2 a{
     font-size:30px;
    color:white;
     background-color:rgb(46, 194, 46);
     position: absolute;
     left:3%;
 }
-p4{
+p222{
+    font-size:30px;
+    position:absolute;
+    top:81%;
+    left:3%;
+    
+}
+p.p3 a{
     font-size:30px;
    color:white;
     background-color:rgb(46, 194, 46);
     position: absolute;
     left:3%;
 }
-p5{
+p333{
+    font-size:30px;
+     position: absolute;
+     top:137%;
+     left:3%;
+}
+p.p4 a{
     font-size:30px;
    color:white;
     background-color:rgb(46, 194, 46);
     position: absolute;
     left:3%;
 }
-p6{
+p444{
+    font-size:30px;
+    position:absolute;
+    top:190%;
+    left:3%;
+}
+p.p5 a{
     font-size:30px;
    color:white;
     background-color:rgb(46, 194, 46);
     position: absolute;
     left:3%;
 }
-p7{
+p555{
+    font-size:30px;
+    position: absolute;
+    top:245%;
+    left:3%;
+}
+p.p6 a{
+    font-size:30px;
+   color:white;
+    background-color:rgb(46, 194, 46);
+    position: absolute;
+    left:3%;
+}
+p666{
+    font-size:30px;
+    position:absolute;
+    top:300%;
+    left:3%
+}
+p.p7 a{
     font-size:30px;
    color:white;
     background-color:rgb(46, 194, 46);
     position:absolute;
-    top:30%;
+    top:31%;
     left:55%;
     
 }
-p8{
+p777{
+    font-size:30px;
+    position:absolute;
+    top:37%;
+    left:55%;
+
+}
+p.p8 a{
     font-size:30px;
    color:white;
     background-color:rgb(46, 194, 46);
@@ -65,36 +112,66 @@ p8{
     top:72%;
     left:55%;
 }
+p888{
+    font-size:30px;
+    position:absolute;
+    top:78%;
+    left:55%;
+}
+p.p9 a{
+    font-size:30px;
+    color:white;
+    background-color:rgb(46, 194, 46); 
+    position:absolute;
+    top:128%;
+    left:55%;
+}
+p999{
+    font-size:30px;
+    position:absolute;
+    top:135%;
+    left:55%;
+}
+p.p10 a{
+    font-size:30px;
+    color:white;
+    background-color:rgb(46, 194, 46); 
+    position:absolute;
+    top:182%;
+    left:55%;
+}
+p100{
+    font-size:30px;
+    position:absolute;
+    top:188%;
+    left:55%;
+}
+p.p11 a{
+    font-size:30px;
+    color:white;
+    background-color:rgb(46, 194, 46); 
+    position:absolute;
+    top:239%;
+    left:55%;
+}
 
-p9{
+p110{
     font-size:30px;
-    color:white;
-    background-color:rgb(46, 194, 46); 
     position:absolute;
-    top:125%;
+    top:245%;
     left:55%;
 }
-p10{
+p.p12 a{
     font-size:30px;
     color:white;
     background-color:rgb(46, 194, 46); 
     position:absolute;
-    top:177%;
-    left:55%;
+    top:22%;
+    left:2%;
 }
-p11{
+p120{
     font-size:30px;
-    color:white;
-    background-color:rgb(46, 194, 46); 
     position:absolute;
-    top:230%;
-    left:55%;
-}
-p12{
-    font-size:30px;
-    color:white;
-    background-color:rgb(46, 194, 46); 
-    position:absolute;
-    top:282%;
-    left:55%;
+    top:25%;
+    left:2%;
 }
