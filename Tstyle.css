@@ -54,6 +54,12 @@ p.p1 a{
     top:45%;
     left:3%;
 }
+p.p1 a:hover{
+    background:rgb(245, 245, 0);
+}
+p.p1 a:active{
+    background:rgb(2, 112, 98);
+}
 p111{
     font-size:30px;
     position: absolute;
@@ -74,6 +80,12 @@ p.p2 a{
     position: absolute;
     top:90%;
     left:3%;
+}
+p.p2 a:hover{
+    background:yellow;
+}
+p.p2 a:active{
+    background:rgb(2, 112, 98);
 }
 p222{
     font-size:30px;
@@ -97,6 +109,12 @@ p.p3 a{
     top:135%;
     left:3%;
 }
+p.p3 a:hover{
+    background:yellow;
+}
+p.p3 a:active{
+    background:rgb(2, 112, 98);
+}
 p333{
     font-size:30px;
      position: absolute;
@@ -117,6 +135,12 @@ p.p4 a{
     position: absolute;
     TOP:180%;
     left:3%;
+}
+p.p4 a:hover{
+    background:yellow;
+}
+p.p4 a:active{
+    background:rgb(2, 112, 98);
 }
 p444{
     font-size:30px;
@@ -139,6 +163,12 @@ p.p5 a{
     top:225%;
     left:3%;
 }
+p.p5 a:hover{
+    background:yellow;
+}
+p.p5 a:active{
+    background:rgb(2, 112, 98);
+}
 p555{
     font-size:30px;
     position: absolute;
@@ -159,6 +189,12 @@ p.p6 a{
     position: absolute;
     top:275%;
     left:3%;
+}
+p.p6 a:hover{
+    background:yellow;
+}
+p.p6 a:active{
+    background:rgb(2, 112, 98);
 }
 p666{
     font-size:30px;
@@ -182,6 +218,12 @@ p.p7 a{
     left:55%;
     
 }
+p.p7 a:hover{
+    background:yellow;
+}
+p.p7 a:active{
+    background:rgb(2, 112, 98);
+}
 p777{
     font-size:30px;
     position:absolute;
@@ -204,6 +246,12 @@ p.p8 a{
     top:90%;
     left:55%;
 }
+p.p8 a:hover{
+    background:yellow;
+}
+p.p8 a:active{
+    background:rgb(2, 112, 98);
+}
 p888{
     font-size:30px;
     position:absolute;
@@ -224,6 +272,12 @@ p.p9 a{
     position:absolute;
     top:135%;
     left:55%;
+}
+p.p9 a:hover{
+    background:yellow;
+}
+p.p9 a:active{
+    background:rgb(2, 112, 98);
 }
 p999{
     font-size:30px;
@@ -246,6 +300,12 @@ p.p10 a{
     top:180%;
     left:55%;
 }
+p.p10 a:hover{
+    background:yellow;
+}
+p.p10 a:active{
+    background:rgb(2, 112, 98);
+}
 p100{
     font-size:30px;
     position:absolute;
@@ -267,7 +327,12 @@ p.p11 a{
     top:225%;
     left:55%;
 }
-
+p.p11 a:hover{
+    background:yellow;
+}
+p.p11 a:active{
+    background:rgb(2, 112, 98);
+}
 p110{
     font-size:30px;
     position:absolute;
@@ -288,6 +353,12 @@ p.p12 a{
     position:absolute;
     top:145%;
     left:2%;
+}
+p.p12 a:hover{
+    background:yellow;
+}
+p.p12 a:active{
+    background:rgb(2, 112, 98);
 }
 p120{
     font-size:30px;
