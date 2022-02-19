@@ -22,7 +22,7 @@ body{
     font-size:60px;
     font-weight:bold;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background:#000;
+    background:rgb(0, 92, 54);
     display:outline-block;
     padding:5px 50px;
     
@@ -60,6 +60,13 @@ p111{
     top:50%;
     left:3%;
 }
+p1111{
+    font-size:17px;
+    position:absolute;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top:63%;
+    left:3%;
+}
 p.p2 a{
     font-size:30px;
    color:white;
@@ -75,6 +82,13 @@ p222{
     left:3%;
     
 }
+p2222{
+    font-size:17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    top:110%;
+    left:3%
+}
 p.p3 a{
     font-size:30px;
    color:white;
@@ -88,6 +102,13 @@ p333{
      position: absolute;
      top:140%;
      left:3%;
+}
+p3333{
+    font-size:17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    top:153%;
+    left:3%;
 }
 p.p4 a{
     font-size:30px;
@@ -103,6 +124,13 @@ p444{
     top:185%;
     left:3%;
 }
+p4444{
+     font-size:17px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     position: absolute;
+     top:198%;
+     left:3%;
+}
 p.p5 a{
     font-size:30px;
    color:white;
@@ -117,6 +145,13 @@ p555{
     top:230%;
     left:3%;
 }
+p5555{
+    font-size:17px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     position: absolute;
+     top:243%;
+     left:3%;
+}
 p.p6 a{
     font-size:30px;
    color:white;
@@ -130,6 +165,13 @@ p666{
     position:absolute;
     top:280%;
     left:3%
+}
+p6666{
+    font-size:17px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     position: absolute;
+     top:294%;
+     left:3%;
 }
 p.p7 a{
     font-size:30px;
@@ -147,6 +189,13 @@ p777{
     left:55%;
 
 }
+p7777{
+    font-size:17px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     position: absolute;
+     top:63%;
+     left:55%;
+}
 p.p8 a{
     font-size:30px;
    color:white;
@@ -160,6 +209,13 @@ p888{
     position:absolute;
     top:95%;
     left:55%;
+}
+p8888{
+    font-size:17px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     position: absolute;
+     top:110%;
+     left:55%;
 }
 p.p9 a{
     font-size:30px;
@@ -175,6 +231,13 @@ p999{
     top:140%;
     left:55%;
 }
+p9999{
+    font-size:17px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     position: absolute;
+     top:153%;
+     left:55%;
+}
 p.p10 a{
     font-size:30px;
     color:white;
@@ -188,6 +251,13 @@ p100{
     position:absolute;
     top:185%;
     left:55%;
+}
+p1000{
+    font-size:17px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     position: absolute;
+     top:198%;
+     left:55%;
 }
 p.p11 a{
     font-size:30px;
@@ -204,17 +274,31 @@ p110{
     top:230%;
     left:55%;
 }
+p1100{
+    font-size:17px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     position: absolute;
+     top:42%;
+     left:1%;
+}
 p.p12 a{
     font-size:30px;
     color:white;
     background-color:rgb(46, 194, 46); 
     position:absolute;
-    top:35%;
+    top:145%;
     left:2%;
 }
 p120{
     font-size:30px;
     position:absolute;
-    top:39%;
+    top:165%;
     left:2%;
+}
+p11000{
+    font-size:17px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     position: absolute;
+     top:203%;
+     left:1%;
 }
