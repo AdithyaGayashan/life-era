@@ -59,3 +59,50 @@ nav img {
 .nav-links ul li:hover::after {
     width: 100%;
 }
+
+.text-box {
+    width: auto;
+    color: #fff;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.text-box h1 {
+    font-size: 65px;
+    font-family: fantasy;
+    letter-spacing: 4px;
+}
+
+.text-box p {
+    margin: 15px 0 35px;
+    font-size: 20px;
+    color: white;
+    line-height: normal;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.button:hover {
+    border: 2px solid #26d35fdc;
+    background: #26d35fdc;
+    transition: 0.8s;
+}
+
+nav .fa {
+    display: none;
+}
