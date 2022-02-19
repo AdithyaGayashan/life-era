@@ -45,6 +45,9 @@ p.home a{
     left:80%;
     top:350%;
 }
+p.home a:hover{
+    color:blue;
+}
 
 p.p1 a{
     font-size:30px;
