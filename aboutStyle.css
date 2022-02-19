@@ -1,0 +1,84 @@
+.section {
+    width: 100%;
+    min-height: 100vh;
+    /*background-color: ;*/
+}
+
+.container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section {
+    float: left;
+    width: 55%;
+    padding: 1%;
+    color: rgb(170, 170, 170)
+}
+
+.image-section {
+    float: right;
+    width: 40%;
+    margin-right: 30px;
+}
+
+.image-section img {
+    padding-top: 10px;
+    width: 570px;
+    height: auto;
+    margin-top: 60px;
+}
+
+.content-section .title {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.content-section .content h3 {
+    padding-top: 30px;
+    margin-top: 20px;
+    color: #fdfdfd;
+    font-size: 21px;
+}
+
+.content-section .content p {
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.content-section .content .button {
+    margin-top: 30px;
+}
+
+.content-section .content .button a {
+    background-color: #7e7e7e;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+
+.content-section .content .button a:hover {
+    background-color: #00c542dc;
+    color: #fff;
+}
+
+.content-section .social {
+    margin: 40px 40px;
+}
+
+.content-section .social i {
+    color: #00c542dc;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.content-section .social i:hover {
+    color: #818181;
+}
