@@ -180,7 +180,7 @@ footer {
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    font: 16px sans-serif;
+    font: bold 16px sans-serif;
     padding: 55px 50px;
     margin-top: 80px;
 }
