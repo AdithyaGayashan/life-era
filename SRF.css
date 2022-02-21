@@ -28,7 +28,7 @@
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(11, 17 , 15, 0.3 ),rgb(11, 17, 15,0.3)),url(../Sample/img/ss.jpg);
+    background-image: linear-gradient(rgba(11, 17 , 15, 0.3 ),rgb(11, 17, 15,0.3)),url(images/as.jpg));
     padding: 55px;
     box-sizing: border-box;
     backface-visibility: hidden;
