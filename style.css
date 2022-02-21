@@ -157,6 +157,19 @@ nav .fa {
     }
 }
 
+#lifeonland {
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.tab {
+    margin-left: 70px;
+}
+
 
 /* footer area */
 
@@ -173,16 +186,16 @@ footer {
 }
 
 .footer-distributed {
-    top: 100px;
+    top: auto;
     position: relative;
     background-color: #292c2f;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    font: bold 16px sans-serif;
+    font: 16px sans-serif;
     padding: 55px 50px;
-    margin-top: 80px;
+    margin-top: auto;
 }
 
 .footer-distributed .footer-left,
