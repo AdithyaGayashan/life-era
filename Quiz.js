@@ -57,5 +57,37 @@ const quizData=[
         b: "muxh less paper is being consumed every year ",
         c: "paper consumption has remained the same for years",
         correct: "a",
-    }
+    },
+    {
+        question: "who do you call a paocher?",
+        a: "all hunters",
+        b: "someone who shoots wild animals without permission",
+        c: "someone who stuffs animals",
+        correct: "b",
+
+    },
+    {
+        question: "Ladybirds are often used against palnt pests. how many aphids can a single specimen kill per day ?",
+        a: "10",
+        b: "30",
+        c: "50",
+        correct: "c"
+
+    },
+    {
+        question: "what should you not take home as a souvenier from your holiday?",
+        a: "ivory",
+        b: "shells",
+        c: "pebbles",
+        correct: "a",
+    
+    },
+    {
+        question: "where was a glacier officially officially declared dead for the first time in August 2019? ",
+        a: "in the alps",
+        b: "in the andes",
+        c: "in the iceland",
+        correct: "c",
+    },
+];
     
