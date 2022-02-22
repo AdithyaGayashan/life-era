@@ -36,4 +36,26 @@ const quizData=[
         c: "Rainforest is cleared for pasture and to grow feed for the European market ",
         correct: "c",
     },
+    {
+        question: "by how much does a healthy peatland grow per year",
+        a: "1 millimetre",
+        b: "0.5 centimetre",
+        c: "1 centimetre",
+        correct: "a",
+
+    },
+    {
+        question: "What is NOT foind in the alpine mountain world?",
+        a: "shels and corals",
+        b: "Microplastics",
+        c: "Mammoths",
+        correct: "c",
+    },
+    {
+        Question: "many trees are felled for paper. which statement about global paper consumption is true ",
+        a: "more and more paper is being consumed",
+        b: "muxh less paper is being consumed every year ",
+        c: "paper consumption has remained the same for years",
+        correct: "a",
+    }
     
