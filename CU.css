@@ -1,33 +1,37 @@
-body{
+body {
     margin: 0;
     padding: 0;
     text-align: center;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(images/Ac.jpg);
-    background-size:cover ;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(images/contact\ us.png);
+    background-size: cover;
     background-position: center;
     font-family: sans-serif;
 }
-.contact-title
-{
+
+.contact-title {
     margin-top: 100px;
     color: #fff;
     text-transform: uppercase;
     transition: all 4s ease-in-out;
 }
-.contact-title h1{
+
+.contact-title h1 {
     font-size: 32px;
     line-height: 10px;
 }
-.contact-title h2{
+
+.contact-title h2 {
     font-size: 16px;
 }
-form{
+
+form {
     margin-top: 50px;
     transition: all 4s ease-in-out;
 }
-.form-control{
+
+.form-control {
     width: 600px;
     background: transparent;
     border: none;
@@ -37,10 +41,12 @@ form{
     font-size: 18px;
     margin-bottom: 16px;
 }
-input{
+
+input {
     height: 45px;
 }
-form .submit{
+
+form .submit {
     background: rgb(235, 128, 6);
     border-color: rgb(235, 128, 6);
     font-size: 20px;
@@ -49,8 +55,9 @@ form .submit{
     height: 50px;
     margin-top: 20px;
 }
-form .submit:hover{
+
+form .submit:hover {
     background-color: rgb(156, 182, 12);
-    border-color:rgb(156, 182, 12)  ;
-    cursor: pointer; 
+    border-color: rgb(156, 182, 12);
+    cursor: pointer;
 }

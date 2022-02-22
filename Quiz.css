@@ -49,6 +49,11 @@ button {
     font-family: inherit;
     padding:1.3rem;
 }
+button:focus{
+    outline: none;
+    background-color: #44b927;
+
+}
 
 
 
