@@ -36,7 +36,7 @@ form {
     background: transparent;
     border: none;
     outline: none;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(151, 151, 151);
     color: #fff;
     font-size: 18px;
     margin-bottom: 16px;
