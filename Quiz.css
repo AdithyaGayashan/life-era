@@ -31,6 +31,24 @@ h2{
 
 }
 ul{
-    list-style: armenian;
+    list-style-type: armenian;
     padding: 0;
 }
+ul li label{
+    cursor:pointer'
+
+}
+button {
+    background-color: #03cae4;
+    color: #fff;
+    border: none;
+    display: block;
+    width:100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding:1.3rem;
+}
+
+
+
