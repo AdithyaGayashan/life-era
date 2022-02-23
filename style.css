@@ -176,7 +176,8 @@ nav .fa {
 }
 
 .quiz {
-    background-color: #b600793b;
+    border-radius: 20px;
+    background-color: #b600791c;
     font-size: 25px;
     text-align: center;
     margin-top: 50px;
@@ -188,6 +189,7 @@ nav .fa {
 
 .quizbtn {
     display: inline-block;
+    border-radius: 30px;
     text-decoration: none;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(0, 0, 0);
