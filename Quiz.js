@@ -111,4 +111,19 @@ function loadQuiz(){
     c_text.innerText = currentQuizData.c
     d_text.innerText = currentQuizData.d
 }
+function deselectAnswers(){
+    answerEls.forEach(answerEls => answerEls.checked = false)
+}
+function getselected()
+{
+    let answerE1s
+    answerE1s.forEach(answerE1 =>{if (answerE1.checked){answer = answerE1.id}})
+    return answer
+}
+submitBtn.addEventListener('click',() => {
+    const answer = getselected()
+    if(answer){
+        if(answer ===quizData[currentQuiz].correct){
+            score++
+        }
     
