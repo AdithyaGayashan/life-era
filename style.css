@@ -177,7 +177,7 @@ nav .fa {
 
 .quiz {
     border-radius: 20px;
-    background-color: #b600791c;
+    background-color: #00b65233;
     font-size: 25px;
     text-align: center;
     margin-top: 50px;
@@ -200,9 +200,9 @@ nav .fa {
 }
 
 .quizbtn:hover {
-    border: 2px solid #ffffffdc;
-    background: #ffffffdc;
-    color: #000;
+    border: 2px solid #4400ff;
+    background: #4400ff;
+    color: #fff;
     transition: 0.8s;
 }
 
