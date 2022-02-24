@@ -133,6 +133,10 @@ p.slide-left {
     animation-delay: 2s;
 }
 
+p {
+    margin-top: 20px;
+}
+
 #description {
     font-size: 20px;
     text-align: justify;
@@ -140,6 +144,10 @@ p.slide-left {
     margin-bottom: 50px;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.tab {
+    margin-left: 70px;
 }
 
 #description p,
