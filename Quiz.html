@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-compatible" content="IE-edge">
-        <meta name="viewport" content="width=device=width, initial-scale=1.0">
-        <link rel="stylesheet" href="Quiz.css">
-        <!--coding with rashmi-->
-        <title>quiz app</title>
-        
-    </head>
-    <body>
-        <div class="quiz container" id="quiz">
-            <div class="quiz-header">
-                <h2 id="question">Question Text</h2>
-                <ul>
-                    <li>
-                        <input types="radio" name="answer" id="a" class="answer">
-                        <label for="a" if="a_text"></label>
-                    </li>
-                    <li>
-                        <input types="radio" name="answer" id="b" class="answer">
-                        <label for="b" if="b_text"></label>
-                    </li>
-                    <li>
-                        <input types="radio" name="answer" id="c" class="answer">
-                        <label for="c" if="c_text"></label>
-                    </li>
-                    <li>
-                        <input types="radio" name="answer" id="d" class="answer">
-                        <label for="d" if="d_text"></label>
-                    </li>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Supermercado+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title> Quiz</title>
+</head>
+
+<body>
+
+    <section class="header">
+
+        <h1>Quiz</h1>
+        <div class="quiz-wrapper">
+            <div class="question" id="questionBox">
+            </div>
+            <div class="options">
+                <ul id="ul">
+                    <li id="op1" onclick="button(this)"></li>
+                    <li id="op2" onclick="button(this)"></li>
+                    <li id="op3" onclick="button(this)"></li>
+                    <li id="op4" onclick="button(this)"></li>
                 </ul>
             </div>
-            <button id="submit">Submit</button>
-            
-    </body>
+            <div class="score">
+                <div class="next">
+                    <button type="button" onclick="next()" id="button">Next</button>
+                </div>
+                <div class="score-card">
+                    Your Score : <span id="scoreCard">0</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="quiz.js"></script>
+
+</body>
+
 </html>

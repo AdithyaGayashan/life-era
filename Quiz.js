@@ -1,129 +1,130 @@
-const quizData=[
-    {
-        question: "what is the main cause of global extinction species?",
-        a: "the disteuction of natural habitats",
-        b: "poaching and illegal trade ",
-        c: "climate change",
-        correct: "a",
+var ul = document.getElementById('ul');
+var btn = document.getElementById('button');
+var scoreCard = document.getElementById('scoreCard');
+var quizBox = document.getElementById('questionBox');
+var op1 = document.getElementById('op1');
+var op2 = document.getElementById('op2');
+var op3 = document.getElementById('op3');
+var op4 = document.getElementById('op4');
 
-    },
-    {
-        question: "in which Eropean country are the largest areas of primeval forest perseved?",
-        a: "Bulgaria",
-        b: "Finland",
-        c: "polan",
-        correct: "c",
-    },
-    {
-        question: "why do many bees have to starve",
-        a: "because monocultures flower at the same time and bees do not find enough food before and afterwards ",
-        b: "because many bees are specialised on certain plants",
-        c: "because beesonly move within a small radius of their hive",
-        correct: "a",
+var app = {
+    questions: [{
+            q: 'In which European country are the largest areas of primeval forest preserved?',
+            options: ['Bulgaria', 'Finald', 'Poland', 'America'],
+            answer: 2,
+        },
+        {
+            q: 'Who produces 70 percent of the worlds food?',
+            options: ['Organic farmers', 'Large corporations', 'Small farmers', 'Doctors'],
+            answer: 3,
+        },
+        {
+            q: 'By how much does a healthy peatland grow per year?',
+            options: ['1mm', '0.5cm', '1cm', '1m'],
+            answer: 1,
+        },
+        {
+            q: 'What is NOT found in the alpine mountain world?',
+            options: ['Shells and corals', 'Microplastics', 'Mammoths', 'Humans'],
+            answer: 3,
+        },
+        {
+            q: 'Ladybirds are often used against plant pests. How many aphids can a single specimen kill per day?',
+            options: ['10', '30', '50', '12'],
+            answer: 3,
+        },
+        {
+            q: 'What is the goal number of LIFE ON LAND',
+            options: ['1', '12', '4', '15'],
+            answer: 4,
+        },
 
-    },
-    {
-        question: "who produces of the world's food?",
-        a: "organic farmers",
-        b: "large corporations",
-        c: "small farmers",
-        correct: "c",
-    },
-    {
-        question: "what do our meat consumption have to do with the species rich rainforest?",
-        a: "The cattle eat the bark of the trees so that the trees die off ",
-        b: "for every steak a tree is planted in Brazil",
-        c: "Rainforest is cleared for pasture and to grow feed for the European market ",
-        correct: "c",
-    },
-    {
-        question: "by how much does a healthy peatland grow per year",
-        a: "1 millimetre",
-        b: "0.5 centimetre",
-        c: "1 centimetre",
-        correct: "a",
+        {
+            q: 'Ladybirds are often used against plant pests. How many aphids can a single specimen kill per day?',
+            options: ['10', '30', '50', '80'],
+            answer: 3,
+        },
+        {
+            q: 'What should you NOT take home as a souvenir from your holiday?',
+            options: ['Ivory', 'Shells', 'Pebbas', 'Gem'],
+            answer: 1,
+        },
+        {
+            q: 'Where was a glacier officially declared dead for the first time in August 2019?',
+            options: ['In the Alps', 'In the Andes', 'In Iceland', 'In Finland'],
+            answer: 2,
+        },
 
-    },
-    {
-        question: "What is NOT foind in the alpine mountain world?",
-        a: "shels and corals",
-        b: "Microplastics",
-        c: "Mammoths",
-        correct: "c",
-    },
-    {
-        Question: "many trees are felled for paper. which statement about global paper consumption is true ",
-        a: "more and more paper is being consumed",
-        b: "muxh less paper is being consumed every year ",
-        c: "paper consumption has remained the same for years",
-        correct: "a",
-    },
-    {
-        question: "who do you call a paocher?",
-        a: "all hunters",
-        b: "someone who shoots wild animals without permission",
-        c: "someone who stuffs animals",
-        correct: "b",
+    ],
+    index: 0,
+    load: function() {
+        if (this.index <= this.questions.length - 1) {
+            quizBox.innerHTML = this.index + 1 + ". " + this.questions[this.index].q;
+            op1.innerHTML = this.questions[this.index].options[0];
+            op2.innerHTML = this.questions[this.index].options[1];
+            op3.innerHTML = this.questions[this.index].options[2];
+            op4.innerHTML = this.questions[this.index].options[3];
 
-    },
-    {
-        question: "Ladybirds are often used against palnt pests. how many aphids can a single specimen kill per day ?",
-        a: "10",
-        b: "30",
-        c: "50",
-        correct: "c"
+            this.scoreCard();
+        } else {
 
-    },
-    {
-        question: "what should you not take home as a souvenier from your holiday?",
-        a: "ivory",
-        b: "shells",
-        c: "pebbles",
-        correct: "a",
-    
-    },
-    {
-        question: "where was a glacier officially officially declared dead for the first time in August 2019? ",
-        a: "in the alps",
-        b: "in the andes",
-        c: "in the iceland",
-        correct: "c",
-    },
-];
-const quiz= document.getElementById('quiz')
-const answerE1s= document.querySelectorAll('.answer')
-const questionE1= document.getElementById('question')
-const a_text= document.getElementById('a_text')
-const b_text= document.getElementById('b_text')
-const c_text= document.getElementById('c_text')
-const d_text= document.getElementById('d_text')
-const submitBtn= document.getElementaryId('submit')
-
-let currentQuiz = 0
-let score= 0
-loadQuiz()
-function loadQuiz(){
-    deselectAnswers()
-    const currentQuizData = quizData[currentQuiz]
-    questionE1.innerText= currentQuizData.question
-    a_text.innerText = currentQuizData.a
-    b_text.innerText = currentQuizData.b
-    c_text.innerText = currentQuizData.c
-    d_text.innerText = currentQuizData.d
-}
-function deselectAnswers(){
-    answerEls.forEach(answerEls => answerEls.checked = false)
-}
-function getselected()
-{
-    let answerE1s
-    answerE1s.forEach(answerE1 =>{if (answerE1.checked){answer = answerE1.id}})
-    return answer
-}
-submitBtn.addEventListener('click',() => {
-    const answer = getselected()
-    if(answer){
-        if(answer ===quizData[currentQuiz].correct){
-            score++
+            quizBox.innerHTML = "Quiz is Over!!!"
+            op1.style.display = "none";
+            op2.style.display = "none";
+            op3.style.display = "none";
+            op4.style.display = "none";
+            btn.style.display = "none";
         }
-    
+    },
+
+    next: function() {
+        this.index++;
+        this.load();
+    },
+    check: function(ele) {
+
+        var id = ele.id.split('');
+
+        if (id[id.length - 1] == this.questions[this.index].answer) {
+            this.score++;
+            ele.className = "correct";
+            ele.innerHTML = "Correct";
+            this.scoreCard();
+        } else {
+            ele.className = "Incorrect";
+            ele.innerHTML = "Incorrect";
+        }
+
+    },
+
+    notClickAble: function() {
+        for (let i = 0; i < ul.children.length; i++) {
+            ul.children[i].style.pointerEvents = "none";
+        }
+    },
+
+    clickAble: function() {
+        for (let i = 0; i < ul.children.length; i++) {
+            ul.children[i].style.pointerEvents = "auto";
+            ul.children[i].className = ''
+
+        }
+    },
+
+    score: 0,
+    scoreCard: function() {
+        scoreCard.innerHTML = this.score + "/" + this.questions.length;
+    }
+
+}
+window.onload = app.load();
+
+function button(ele) {
+    app.check(ele);
+    app.notClickAble();
+}
+
+function next() {
+    app.next();
+    app.clickAble();
+}
