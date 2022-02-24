@@ -1,8 +1,13 @@
-*{
-   margin: 0;
-   padding: 0; 
+* {
+    margin: 0;
+    padding: 0;
 }
-.container{
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
     width: 100%;
     height: 100vh;
     font-family: sans-serif;
@@ -12,37 +17,44 @@
     align-items: center;
     justify-content: center;
 }
-.card{
+
+.card {
     width: 350px;
     height: 500px;
-    box-shadow: 0 0 40px 20px rgba(0,0,0,0.26);
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
 }
-.inner-box{
+
+.inner-box {
     position: relative;
     width: 100%;
     height: 100%;
 }
-.card-front, .card-back{
+
+.card-front,
+.card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(11, 17 , 15, 0.3 ),rgb(11, 17, 15,0.3)),url(images/as.jpg));
+    background-image: linear-gradient(rgba(11, 17, 15, 0.3), rgb(11, 17, 15, 0.3)), url(images/as.jpg));
     padding: 55px;
     box-sizing: border-box;
     backface-visibility: hidden;
 }
-.card-back{
+
+.card-back {
     transform: rotateY(180deg);
 }
-.card h2{
+
+.card h2 {
     font-weight: normal;
     font-size: 24px;
     text-align: center;
     margin-bottom: 20px;
 }
-.input-box{
+
+.input-box {
     width: 100%;
     background: transparent;
     border: 1px solid #fff;
@@ -51,13 +63,15 @@
     border-radius: 20px;
     outline: none;
     text-align: center;
-    color: #fff;     
+    color: #fff;
 }
-::placeholder{
+
+::placeholder {
     color: #fff;
     font-size: 12px;
 }
-button{
+
+button {
     width: 100%;
     background: transparent;
     border: 1px solid #fff;
@@ -68,14 +82,15 @@ button{
     padding: 0 10px;
     box-sizing: border-box;
     outline: none;
-    color:#fff;
+    color: #fff;
     cursor: pointer;
 }
-.submit-btn{
+
+.submit-btn {
     position: relative;
 }
-.submit-btn::after{
 
+.submit-btn::after {
     color: #333;
     line-height: 32px;
     font-size: 17px;
@@ -87,21 +102,21 @@ button{
     right: -1px;
     top: -1px;
 }
-span{
+
+span {
     font-size: 13px;
     margin-left: 10px;
 }
-.card .btn{
+
+.card .btn {
     margin-top: 70px;
 }
-.card a{
+
+.card a {
     color: #fff;
     text-decoration: none;
     display: block;
     text-align: center;
     font-size: 13px;
     margin-top: 8px;
-    
 }
-
- 
