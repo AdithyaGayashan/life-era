@@ -1,59 +1,120 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Target7</title>
+    <title>15.7</title>
     <link rel="stylesheet" href="ST7.css">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
 </head>
+
 <body>
     <div class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo_official.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Target.html">Targets</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+        </nav>
         <div>
             <img src="" class="logo">
             <div class="baner-text">
-                <h1><pre>
-ELLIMINATE POACHING 
-AND
-TRAFFICKING OF PROTECTED SPECIES
-                </pre>
-                </h1>
-                <p>Take urgent action to end poasching
-                   and trafficking of proctected species<br>
-                   of flora and fauna and adress both<br>
-                   demand and suplie of illegal wildlife products </p>
-                   <div class="banner-btn">
-                       <a href="#"><span></span>Find out</a>
-                       <a href="#"><span></span>Find more</a>
-                   </div>
-                   <div id="sideNav">
-                       <nav>
-                       <ul>
-                           <li><a href="#">Home</a></li>
-                           <li> <a href="#">Intro</a></li>
-                           <li><a href="#">Archive</a></li>   
-                       </ul>
-                       </nav>
-                   </div>
-                       <div id="menuBtn">
-                           <img src="../Sample/img/menu.png"  id="menu">
-                       </div>
-                       <script>
-                           var menuBtn= document.getElementById("menuBtn")
-                           var sideNav= document.getElementById("sideNav")
-                           var menu= document.getElementById("menu")
-                           menuBtn.onclick=function(){
-                           if(sideNav.style.right == "-250px") {
-                            sideNav.style.right = "0";
-                            menu.src ="images/close.png";
-                           }                            
-                           else{
-                               sideNav.style.right = "-250px";
-                               menu.src ="images/menu.png";
-                           }
-                           }                                                          
-                       </script>
-                   </div>
+                <h1><pre>ELIMINATE POACHING AND <br>TRAFFICKING OF PROTECTED SPECIES</pre>
+                </h1><br>
+                <p>Take urgent action to end poaching and <br>trafficking of protected species of flora and fauna and address both demand and supply of illegal wildlife products.</p>
+                <div class="banner-btn">
+                    <a href="#description"><span></span>Click here to view the full article</a>
+                </div>
+
+
             </div>
         </div>
-    </div>    
+    </div>
+    <section id="description">
+        <p>
+            <h3>The challenge and the opportunity</h3><br>
+            <span class="tab"></span>Due to rising environmental awareness, international conventions and globalisation of markets, most countries now want to manage their forests more sustainably than they have in the past. However, progress is hindered
+            by a lack of suitable financing. Many countries currently take an ad-hoc approach to financing, using a small number of mechanisms such as grants and subsidies, that often cover only a few activities. Furthermore, reliance on government budgets
+            and overseas development assistance as funding sources remains high. To address this challenge, it is necessary to examine how to expand and diversify financing mechanisms and sources of finance. At the same time, the contributions of forests
+            to economic development, human well-being and the environment are increasingly recognised as important. This opportunity has been seized by some countries that are now experimenting with innovative financing mechanisms. These mechanisms may
+            generate new sources of revenue and help to make investments in sustainable forest management more attractive and feasible.
+            <br><br>
+        </p>
+
+
+        <p>
+            <h3>Constraints to implementation</h3><br>
+            <span class="tab"></span>There are numerous constraints that limit the financing of sustainable forest management. The most important is that many of the benefits of sustainable forest management do not generate revenue for forest owners and
+            managers. Therefore, they have no incentive to produce the full range of benefits from forests and continue to focus on production of timber and a few other marketed products. A second constraint is the complexity and generally higher costs
+            and perceived risks of sustainable forest management compared to other land uses, including unsustainable forest practices. These economic constraints are often compounded by policy, legal and institutional constraints such as: weak institutions,
+            a lack of policy co-ordination across sectors; unresolved land tenure issues; and weak governance, as well as a lack of technical capacity in countries.
+            <br><br>
+        </p>
+
+    </section>
+
+    <!-- footer area -->
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>
+                <a href="index.html"><img src="images/logo_official.png"></a>
+            </h3>
+
+            <p class="footer-links">
+                <a href="index.html">Home</a> ·
+                <a href="Target.html">Targets</a> ·
+                <a href="about.html">About us</a> ·
+                <a href="news.html">News</a> ·
+
+            </p>
+
+            <p class="footer-company-name">Life era &copy; 2022</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p>1st Street, Colombo, <br> Sri Lanka</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>(+94) 11 22 22 500</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">life.era@gmail.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About the Organization </span> Life era organization is a non profit organization, tax exempt, charitable organization. Donations are tax deductible as allowed by law.</p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
