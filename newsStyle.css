@@ -159,7 +159,7 @@ h3 {
     border-radius: 30px;
     text-decoration: none;
     margin-bottom: 50px;
-    color: rgb(0, 0, 0);
+    color: rgb(151, 55, 55);
     border: 2px solid rgb(0, 0, 0);
     padding: 10px 20px;
     font-size: 20px;
@@ -167,9 +167,9 @@ h3 {
 }
 
 .cen:hover {
-    border: 2px solid #000000;
-    background: #000000;
-    color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+    background: #00eeff;
+    color: #5383d3;
     transition: 0.8s;
 }
 
