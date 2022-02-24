@@ -123,7 +123,7 @@ nav img {
 }
 
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(46, 46, 46, 0.6)), url(images/targetnav.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(images/targetback.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
