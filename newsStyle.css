@@ -146,6 +146,29 @@ h3 {
     }
 }
 
+.seemore {
+    text-align: center;
+}
+
+.cen {
+    display: inline-block;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cen:hover {
+    border: 2px solid #000000;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
+}
+
 
 /* footer area */
 
