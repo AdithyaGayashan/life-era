@@ -5,6 +5,10 @@
     font-family: 'poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     display: flex;
     padding: 1% 2%;
